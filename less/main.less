@@ -1,0 +1,64 @@
+body {
+    background-color: @primaryColor;
+    margin: 0;
+
+    #pageContainer {
+        position: relative;
+    }
+
+    #mainContent {
+        height: 86vh;
+        display: flex;
+        justify-content: center;
+
+        #backgroundImage {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    #aboutMe {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 250px;
+        position: absolute;
+
+        width: 100%;
+
+        #circleImg {
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            float: right;
+            transition: transform .2s;
+        }
+
+        #circleImg:hover{
+            transform: scale(1.4);
+        }
+
+        h1 {
+            color: steelblue;
+        }
+
+        p {
+            color: steelblue;
+            font-size: large;
+        }
+
+        #wordSection {
+            padding-top: 30px;
+            width: 250px;
+            height: 250px;
+        }
+
+        #wordSection,
+        #imageSection {
+            display: inline-block;
+            width: 500px;
+        }
+
+    }
+}
