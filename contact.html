@@ -9,6 +9,7 @@
     <link rel="stylesheet/less" type="text/css" href="./less/custom_styles.less" />
     <script src="https://cdn.jsdelivr.net/npm/less"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <script src="app.js"></script>
 
 </head>
 
@@ -32,8 +33,28 @@
                 </ul>
             </nav>
             <div id="mainContent">
+                <div id="contactBox">
+                    <h1>Contact me</h1>
+                    <div id="EMAIL">
+                        <h3>Personal Email</h3>
+                        <div>
+                            <button id="personalMail" onclick="showPersonalEmail()">Click to Show</button>
+                        </div>
+                        <p id="isShown1" style="display: none;"><a href="mailto:vetetoandrew@gmail.com">vetetoandrew@gmail.com</a></p>
 
-                
+                        <h3>School Email</h3>
+                        <div>
+                            <button id="schoolMail" onclick="showSchoolEmail()">Click to Show</button>
+                        </div>
+                        <p id="isShown2" style="display: none;"><a href="mailto:ajveteto@iu.edu">ajveteto@iu.edu</a></p>
+                    </div>
+                    <div id="SocialInvites">
+                        <h3>Linkedin</h3>
+                        <a href="https://www.linkedin.com/in/andrew-veteto-3b27991a3/" target="_blank">My Linkedin Profile</a>
+                        <h3>Handshake</h3>
+                        <a href="https://app.joinhandshake.com/stu/users/27421062" target="_blank">My Handshake Profile</a>
+                    </div>
+                </div>
             </div>
 
             <div id="links">
